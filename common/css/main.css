@@ -1,0 +1,84 @@
+body {
+    font-family: "Univers";
+    font-size: 32px;
+    letter-spacing: 1px;
+    word-spacing: -1px;
+    background-color: rgb(240, 240, 255);
+    background-image: url('img/grid-4.gif');
+}
+
+.splash {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 10%;
+    background-image: url("../../content/img/nypl-pink.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nav {
+    width: 100%;
+    text-align: center;
+    padding: 1em 0;
+}
+.nav.is-on-homepage {
+    position: fixed;
+    bottom: 0;
+}
+.nav h1 {
+    margin-bottom: 0.25em;
+}
+.nav li {
+    display: inline-block;
+    margin: 0 0.33em;
+}
+
+.page {
+    font-size: 60%;
+    line-height: 1.33;
+    max-width: 600px;
+    margin: 0 auto;
+    margin: 1em auto 7em auto;
+}
+
+p {
+    margin-bottom: 1.5em;
+}
+
+.faq-question,
+.faq-answer {
+    text-indent: 2em;
+}
+.faq-question {
+    margin-bottom: 0em;
+}
+
+.theme-thumbnail {
+    border: 3px solid black;
+    max-width: 100%;
+    margin-bottom: 3em;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    border-bottom: 3px solid black;
+}
+p a:hover {
+    border-bottom: 2px solid black;
+}
+a.button {
+    padding: 0.6em 0.5em 0.5em 0.5em;
+    background-color: white;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+a.button:hover {
+    background-color: black;
+    color: white;
+}
